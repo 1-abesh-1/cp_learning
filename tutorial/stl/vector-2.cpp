@@ -21,5 +21,15 @@ int main(){
    v2.push_back(3);
 swap(v1,v2);//swapping two vector
 cout << v1[0];
+
+
+   
+sort(v1.begin(),v1.end());//sorting
+reverse(v1.begin(),v1.end());//reversing
+
+cout << v1[0];
+
+
+
    return 0;
 }
